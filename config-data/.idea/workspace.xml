@@ -22,16 +22,33 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/DAD2024-G1/config-data",
+    "last_opened_file_path": "E:/DAD2024-G1",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="config-data" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="config-data" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -48,7 +65,11 @@
       <option name="presentableId" value="Default" />
       <updated>1712240964371</updated>
       <workItem from="1712240965425" duration="9000" />
-      <workItem from="1712240987776" duration="1003000" />
+      <workItem from="1712240987776" duration="2342000" />
+      <workItem from="1712245324854" duration="22000" />
+      <workItem from="1712245396874" duration="21000" />
+      <workItem from="1712245604442" duration="23000" />
+      <workItem from="1712245635737" duration="12000" />
     </task>
     <servers />
   </component>
