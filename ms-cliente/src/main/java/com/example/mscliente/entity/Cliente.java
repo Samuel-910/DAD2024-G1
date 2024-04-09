@@ -1,4 +1,4 @@
-package com.example.mscatalogo.entity;
+package com.example.mscliente.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -17,5 +17,4 @@ public class Cliente {
     private String telefono;
     private String correo;
     private String direccion;
-
 }

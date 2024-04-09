@@ -1,16 +1,14 @@
-package com.example.mscatalogo.service.impl;
+package com.example.mscliente.service.impl;
 
-import com.example.mscatalogo.entity.Cliente;
-import com.example.mscatalogo.repository.ClienteRepository;
-import com.example.mscatalogo.service.ClienteService;
+import com.example.mscliente.entity.Cliente;
+import com.example.mscliente.repository.ClienteRepository;
+import com.example.mscliente.service.ClienteService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-
 @Service
 public class ClienteServiceImpl implements ClienteService {
-
     @Autowired
     private ClienteRepository clienteRepository;
     @Override

@@ -12,7 +12,7 @@ import java.util.List;
 @RequestMapping("/categoria")
 public class CategoriaController {
     @Autowired
-        private CategoriaService categoriaService;
+    private CategoriaService categoriaService;
     @GetMapping
     public ResponseEntity<List<Categoria>> listar(){
         return ResponseEntity.ok(categoriaService.listar());
