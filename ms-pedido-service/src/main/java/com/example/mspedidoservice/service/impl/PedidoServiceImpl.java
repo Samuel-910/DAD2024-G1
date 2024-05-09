@@ -1,13 +1,11 @@
 package com.example.mspedidoservice.service.impl;
 
-import com.example.mspedidoservice.dto.ClienteDto;
 import com.example.mspedidoservice.entity.Pedido;
 import com.example.mspedidoservice.entity.PedidoDetalle;
 import com.example.mspedidoservice.feign.ClienteFeign;
 import com.example.mspedidoservice.feign.ProductoFeign;
 import com.example.mspedidoservice.repository.PedidoRepository;
 import com.example.mspedidoservice.service.PedidoService;
-import org.springdoc.api.OpenApiResourceNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
