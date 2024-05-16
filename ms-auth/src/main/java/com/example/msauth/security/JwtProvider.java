@@ -19,7 +19,6 @@ public class JwtProvider    {
         secret = Base64.getEncoder().encodeToString(secret.getBytes());
     }
 
-
     public String createToken(AuthUser authUser) {
         Map<String, Object> claims = new HashMap<>();
         claims = Jwts.claims().setSubject(authUser.getUserName());
@@ -34,7 +33,6 @@ public class JwtProvider    {
                 .compact();
     }
 
-
     public boolean validate(String token) {
         try {
             Jwts.parser().setSigningKey(secret).parseClaimsJws(token);
@@ -44,7 +42,6 @@ public class JwtProvider    {
             return false;
         }
     }
-
 
     public String getUserNameFromToken(String token){
         try {
